@@ -1,4 +1,11 @@
-<p>asignacion works!</p>
+<p>CANTIDAD DE ENVIOS POR MENSAJERO</p>
+<ul>
+  <div *ngFor="let user of UserList">
+  <li>NOMBRE: {{user.MENSAJERO}}</li>
+  <li>CANTIDAD DE ENVIOS: {{user.Cant_Asignaciones}}</li>
+  <br>
+</div>
+</ul>
 <nav>
-  <button class="button is-link" routerLink="">HOME</button>
+  <button class="button is-link" routerLink="">INICIO</button>
 </nav>

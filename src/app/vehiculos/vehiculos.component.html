@@ -1,4 +1,11 @@
-<p>vehiculos works!</p>
+<p>TIPO DE VEHICULOS USADO</p>
+<ul>
+  <div *ngFor="let user of VehList">
+  <li>TIPO VEHICULO: {{user.VEHICULO}}</li>
+  <li>CANTIDAD DE ENVIOS: {{user.Cant_Vehiculo}}</li>
+  <br>
+</div>
+</ul>
 <nav>
-  <button class="button is-link" routerLink="">HOME</button>
+  <button class="button is-link" routerLink="">INICIO</button>
 </nav>
